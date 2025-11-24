@@ -23,7 +23,7 @@ variable "SUMOLOGIC_ACCESS_KEY" {
 provider "sumologic" {
   access_id   = var.SUMOLOGIC_ACCESS_ID
   access_key  = var.SUMOLOGIC_ACCESS_KEY
-  environment = "us1"
+  environment = "au"
 }
 
 resource "sumologic_monitor" "tf_logs_monitor_1" {
