@@ -65,7 +65,7 @@ if __name__ == "__main__":
   claude_response = asyncio.run(get_responses(api_key, [message]))
   print("Claude Response: " + claude_response)
   gemini_response = asyncio.run(
-      get_responses(api_key, [message], bot_name="Gemini-1.5-Pro"))
+      get_responses(api_key, [message], bot_name="Gemini-2.5-Pro"))
   print("Gemini Response: " + gemini_response)
 
   #count the response types from each bot equal weighting
